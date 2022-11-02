@@ -4,7 +4,7 @@
 		stages {
 			stage('Clone repo') {
 				steps {
-					git url: 'https://github.com/SehejBakshi/Jenkins-Demo.git',branch: 'master'
+					git url: 'https://github.com/SehejBakshi/Jenkins-Demo.git',branch: 'main'
 				}
 			}
 			stage('Build image') {
